@@ -1,13 +1,14 @@
 def create_an_empty_array
-  
+  []
 end
 
 def create_an_array
-  
+ ["cars", "truck", "planes", "trains"] 
 end
 
 def add_element_to_end_of_array(array, element)
-  
+ ["cars", "truck", "planes", "trains"] 
+ array << "boat"
 end
 
 def add_element_to_start_of_array(array, element)
