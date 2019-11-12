@@ -15,7 +15,7 @@ def add_element_to_start_of_array = ["cars", "truck", "planes", "trains"]
 end
 
 def remove_element_from_end_of_array = ["cars", "truck", "planes", "trains"]
-  cars_array
+  cars_array = remove_element_from_end_of_array.pop
 end
 
 def remove_element_from_start_of_array(array)
