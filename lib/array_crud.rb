@@ -6,8 +6,8 @@ def create_an_array
  ["cars", "truck", "planes", "trains"] 
 end
 
-def add_element_to_end_of_array=["cars", "truck", "planes", "trains"]
- [] << "boat"
+def add_element_to_end_of_array = ["cars", "truck", "planes", "trains"]
+ add_element_to_end_of_array << "boat"
 end
 
 def add_element_to_start_of_array(array, element)
